@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="840px"
+        >
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="840px"
+        android:src="@drawable/ic_backgroundshape"
+        />
+        <ImageView
+            android:layout_marginTop="200px"
+            android:layout_width="260px"
+            android:layout_height="280px"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="skip"
+            android:fontFamily="@font/sourcesanspro"
+            android:textColor="#373737"
+            android:layout_gravity="right"
+            android:textSize="50px"
+            android:layout_marginTop="40px"
+            android:layout_marginRight="40px"
+            />
+    </FrameLayout>
+    <TextView
+        android:layout_marginTop="100px"
+        android:layout_gravity="center"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:text="Very simple Things To-Do List.  Helps you to manage yourdaily life, without any hassle! "
+        android:fontFamily="@font/source_sans_pro"
+        android:textSize="46px"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_gravity="center"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:paddingTop="45dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/loginbutton_twitter"
+            />
+        <com.facebook.login.widget.LoginButton
+            android:layout_width="320dp"
+            android:layout_gravity="center"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:scaleType="centerCrop"
+            android:paddingBottom="10dp"
+            android:src="@drawable/loginbutton_facebook"
+            android:id="@+id/button_facebook_login"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
